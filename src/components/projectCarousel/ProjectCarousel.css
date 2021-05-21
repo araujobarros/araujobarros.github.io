@@ -1,0 +1,19 @@
+.container {
+  width: 100%;
+  position: relative;
+  height: 500px;
+}
+
+.children {
+  width: 100%;
+  position: relative;
+  height: 100%;
+}
+
+.left {
+  left: 0.5%;
+}
+
+.right {
+  right: 0.5%;
+}

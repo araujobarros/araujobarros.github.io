@@ -1,0 +1,83 @@
+.social-media-container {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media-div {
+  font-size: 3rem;
+  width: 12rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.hex {
+  color: white;
+  text-decoration: none;
+}
+
+.google {
+  margin-top: -1.49rem;
+}
+
+.hex .top {
+  width: 0;
+  border-bottom: 1.44rem solid #333;
+  border-left: 2.5rem solid transparent;
+  border-right: 2.5rem solid transparent;
+}
+.hex .middle {
+  width: 5rem;
+  height: 2.88rem;
+  background: #333;
+  display: flex;
+  justify-content: center;
+}
+.hex .bottom {
+  width: 0;
+  border-top: 1.44rem solid #333;
+  border-left: 2.5rem solid transparent;
+  border-right: 2.5rem solid transparent;
+}
+
+.linkedin .top {
+  border-bottom: #0e76a8 1.44rem solid;
+}
+.linkedin .middle {
+  background: #0e76a8;
+}
+.linkedin .bottom {
+  border-top: #0e76a8 1.44rem solid;
+}
+
+.google .top {
+  border-bottom: #ea4335 1.44rem solid;
+}
+.google .middle {
+  background: #ea4335;
+}
+.google .bottom {
+  border-top: #ea4335 1.44rem solid;
+}
+
+.google .middle:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 0 50px #ea4335;
+}
+
+.linkedin .middle:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 0 50px #0e76a8;
+}
+
+.github .middle:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 0 50px #333;
+}
+
+/* Media Query */
+@media (max-width: 768px) {
+  .social-media-div {
+    text-align: center;
+  }
+}

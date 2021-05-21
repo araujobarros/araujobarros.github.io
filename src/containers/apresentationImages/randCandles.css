@@ -1,0 +1,19 @@
+.candles > * {
+  max-width: 5%;
+}
+
+.hideClass {
+  opacity: 0%;
+}
+
+@keyframes visibleOne {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
