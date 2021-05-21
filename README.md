@@ -7,7 +7,7 @@
 - Experiência
 - Projetos
 - Contato
-- 
+
 # Tecnologias usadas  🛠️
 
 - [React](https://reactjs.org/)
