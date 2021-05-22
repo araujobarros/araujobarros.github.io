@@ -6,7 +6,7 @@ Eu usei o do [Harikanani](https://github.com/harikanani/PortfolioV2) e me inspir
 
 - Falando em elaboração, a animação dos candles randômicos é feita dinamicamente com auxílio de JS, CSS e Hooks do React;
 
-- As ilustrações em SVG foram baixadas no [undraw](https://undraw.co/) editados no Inkscape e transformadas em JSX automagicamente [neste aqui](https://svg2jsx.com/);
+- As ilustrações em SVG foram baixadas no [undraw](https://undraw.co/) editados no Inkscape e transformadas em JSX automagicamente [neste site aqui](https://svg2jsx.com/);
 
 - Das bibliotecas utilizadas no modelo manipulei mais o react-reveal para os efeitos e o carrossel  e baseui para organizar os projetos;
 
