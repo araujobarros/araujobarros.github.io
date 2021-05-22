@@ -4,7 +4,7 @@ Este portfólio foi construído com a ajuda de um template, para mim foi bom usa
 
 Eu usei o do [Harikanani](https://github.com/harikanani/PortfolioV2) e me inspirei em diversos outros;
 
-- Falando em elaboração, a animação dos candles é feita dinamicamente com auxílio de JS, CSS e Hooks do React;
+- Falando em elaboração, a animação dos candles randômicos é feita dinamicamente com auxílio de JS, CSS e Hooks do React;
 
 - As ilustrações em SVG foram baixadas no [undraw](https://undraw.co/) editados no Inkscape e transformadas em JSX automagicamente [neste aqui](https://svg2jsx.com/);
 
