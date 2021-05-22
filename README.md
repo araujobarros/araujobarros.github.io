@@ -40,10 +40,6 @@ Sei que ainda tem muitas melhorias a serem realizadas, muitos projetos para esti
 - [react-reveal](https://www.react-reveal.com/)
 - [styled-components](https://styled-components.com/)
 
-# illustrações 🍥
-
-- [UnDraw](https://undraw.co/illustrations)
-
 # Referências
 
 Based on https://github.com/ashutosh1919/masterPortfolio/ , https://github.com/saadpasta/developerFolio and https://github.com/harikanani/PortfolioV2
