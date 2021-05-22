@@ -345,11 +345,6 @@ const references = [
     url: "https://jtauber.github.io/articles/css-hexagon.html",
   },
   {
-    id: 2,
-    name: "Avatar",
-    url: "https://getavataaars.com/",
-  },
-  {
     id: 3,
     name: "Animations",
     url: "https://www.imaginarycloud.com/blog/how-to-make-css-animations/",
