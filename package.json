@@ -1,5 +1,6 @@
 {
-  "homepage": "https://araujobarros.github.io/repository-name",
+  "private": false,
+  "homepage": "araujobarros.github.io",
   "version": "1.0.0",
   "scripts": {
     "build": "react-scripts build",
