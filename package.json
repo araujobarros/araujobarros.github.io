@@ -1,7 +1,5 @@
 {
-  "private": true,
-  "name": "personalPortfolio",
-  "homepage": "araujobarros.github.io",
+  "homepage": "https://araujobarros.github.io/repository-name",
   "version": "1.0.0",
   "scripts": {
     "build": "react-scripts build",
@@ -15,7 +13,6 @@
     "baseui": "^9.109.0",
     "bootstrap": "^4.6.0",
     "fs": "0.0.1-security",
-    "gh-pages": "^3.1.0",
     "glamor": "^2.20.40",
     "node-fetch": "^2.6.1",
     "node-sass": "^5.0.0",
@@ -47,6 +44,7 @@
     "eslint-plugin-promise": "^4.3.1",
     "eslint-plugin-react": "^7.23.2",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "gh-pages": "^3.1.0",
     "husky": "^4.3.8",
     "lint-staged": "^10.5.4",
     "prettier": "2.2.1"
