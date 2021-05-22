@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/araujobarros.github.io/static/css/main.54a82875.chunk.css",
-    "main.js": "/araujobarros.github.io/static/js/main.1a5160a2.chunk.js",
-    "main.js.map": "/araujobarros.github.io/static/js/main.1a5160a2.chunk.js.map",
+    "main.js": "/araujobarros.github.io/static/js/main.604eec41.chunk.js",
+    "main.js.map": "/araujobarros.github.io/static/js/main.604eec41.chunk.js.map",
     "runtime-main.js": "/araujobarros.github.io/static/js/runtime-main.a1b639e3.js",
     "runtime-main.js.map": "/araujobarros.github.io/static/js/runtime-main.a1b639e3.js.map",
     "static/js/2.ee3e94e4.chunk.js": "/araujobarros.github.io/static/js/2.ee3e94e4.chunk.js",
     "static/js/2.ee3e94e4.chunk.js.map": "/araujobarros.github.io/static/js/2.ee3e94e4.chunk.js.map",
     "index.html": "/araujobarros.github.io/index.html",
-    "precache-manifest.1d642896ea5f4148238fe88586021ac6.js": "/araujobarros.github.io/precache-manifest.1d642896ea5f4148238fe88586021ac6.js",
+    "precache-manifest.ca0345f3f903cb3d04be0461c7070b75.js": "/araujobarros.github.io/precache-manifest.ca0345f3f903cb3d04be0461c7070b75.js",
     "service-worker.js": "/araujobarros.github.io/service-worker.js",
     "static/css/main.54a82875.chunk.css.map": "/araujobarros.github.io/static/css/main.54a82875.chunk.css.map",
     "static/js/2.ee3e94e4.chunk.js.LICENSE.txt": "/araujobarros.github.io/static/js/2.ee3e94e4.chunk.js.LICENSE.txt",
@@ -41,6 +41,6 @@
     "static/js/runtime-main.a1b639e3.js",
     "static/js/2.ee3e94e4.chunk.js",
     "static/css/main.54a82875.chunk.css",
-    "static/js/main.1a5160a2.chunk.js"
+    "static/js/main.604eec41.chunk.js"
   ]
 }
