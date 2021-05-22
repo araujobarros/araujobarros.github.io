@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "personalPortfolio",
-  "homepage": "/araujobarros.github.io/",
+  "homepage": "https://araujobarros.github.io/",
   "version": "1.0.0",
   "scripts": {
     "build": "react-scripts build",
