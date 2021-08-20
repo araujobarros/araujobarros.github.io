@@ -1,8 +1,6 @@
 .footer-to-experience {
-  display: block;
-  width: 100%;
-  position: fixed;
-  bottom: 0;
+  position:relative;
+  top: 240px;
 }
 
 .experience-main {
