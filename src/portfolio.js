@@ -128,8 +128,8 @@ const degrees = {
       descriptions: [
         "No módulo de Fundamentos do desenvolvimento Web foi abordado tópicos como HTML, CSS, JS, Git, e Unix & Bash",
         "Em Desenvolvimento Front-end os tópicos anteriores foram melhor desenvolvidos além da implementação do React com manipulação do  estado nos componentes e globalmente usando ferramentas como Redux,ContextAPI e React Hooks, e bibliotecas RTL para testar componentes síncronos e assíncronos.",
-        "Atualmente com desenvolvimento Back-end está sendo abordado Banco de dados, Rest, Server-side, Autenticação, Segurança e Deploy ",
-        "Em Introdução à Ciência da Computação serão aborados Algoritmos, Estrutura de dados, Paradigmas de Programação, Python e Arquitetura de Computadores  ",
+        "Em Back-end aprendi Banco de dados, Rest, Server-side, Autenticação, Segurança e Deploy ",
+        "Atualmente em Introdução à Ciência da Computação serão aborados Algoritmos, Estrutura de dados, Paradigmas de Programação, Python e Arquitetura de Computadores  ",
       ],
       website_link: "https://www.betrybe.com/",
     },

@@ -75,7 +75,6 @@ function DegreeCard(props) {
             style={{
               maxWidth: "100%",
               maxHeight: "100%",
-              transform: "scale(-50%, -50%)",
             }}
             src={require(`../../assests/images/${degree.logo_path}`)}
             alt={degree.alt_name}
@@ -108,13 +107,13 @@ function DegreeCard(props) {
                 <div>
                   <p className="content-list" style={{ color: theme.text }}>
                     <div
-                      className={`tick ${index === 2 ? "charge" : ""}`}
+                      className={`tick ${index === 3 ? "charge" : ""}`}
                       style={{
                         color: theme.accentBright,
                         fontSize: "25px",
                       }}
                     >
-                      {index < 2 ? "✔" : index === 2 ? "◌" : "❏"}
+                      {index < 3 ? "✔" : "◌" }
                     </div>
                     {sentence}
                   </p>
