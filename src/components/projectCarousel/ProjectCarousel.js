@@ -28,7 +28,7 @@ function ProjectCarousel(props) {
     z-index: 100;
   `;
   const CarouselUI = ({ position, total, handleClick, children }) => (
-    <div className="container">
+    <div className="container-project">
       <div className="children">
         {children}
         <Arrow

@@ -1,6 +1,5 @@
 import React from "react";
 import makeCarousel from "react-reveal/makeCarousel";
-import Slide from "react-reveal/Slide";
 import styled, { css } from "styled-components";
 import "./ContactCarousel.css";
 import { contactPageData } from "../../portfolio.js";
