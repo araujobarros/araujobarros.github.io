@@ -30,7 +30,7 @@ function Education(props) {
                 style={{ color: theme.secondaryText }}
               >
                 Tenho formação como técnico em química e atualmete busco
-                qualificações na área de programação e mercado financeiro.
+                qualificações na área de programação, ciência de dados e mercado financeiro.
               </p>
             </div>
           </div>

@@ -30,7 +30,7 @@ function ContactCarousel(props) {
     ${(props) =>
       props.right
         ? css`
-            left: 90%;
+            left: 94%;
           `
         : css`
             left: 0%;
@@ -69,23 +69,15 @@ function ContactCarousel(props) {
   const Carousel = makeCarousel(CarouselUI);
 
   return (
-    <Carousel defaultWait={60000} swipe={true} className="testeCarousel">
+    <Carousel defaultWait={60000} swipe={true}>
       {contactPageData.contactSection.profile_image_path.map((image) => {
         return (
           <Flip left>
-            <div className="flip">
-              <div className="image-container-contact">
-                <Slide right>
-                  <div className="slide">
-                    <img
-                      className="image"
-                      src={require(`../../assests/images/${image}`)}
-                      alt=""
-                    />
-                  </div>
-                </Slide>
-              </div>
-            </div>
+            <img
+              className="image"
+              src={require(`../../assests/images/${image}`)}
+              alt=""
+            />
           </Flip>
         );
       })}

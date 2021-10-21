@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
@@ -31,15 +31,7 @@ function Contact(props) {
             <div className="contact-heading-div">
               <div className="contact-heading-img-div">
                 <ContactCarousel />
-                {/* <img
-                className="profile-pic"
-                src={require(`../../assests/images/${ContactData["profile_image_path"][0]}`)}
-                alt=""
-              /> */}
               </div>
-              {/* <div>
-              <br/>
-            </div> */}
               <div className="contact-heading-text-div">
                 <h1
                   className="contact-heading-text"

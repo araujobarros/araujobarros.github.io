@@ -40,12 +40,11 @@ const skills = {
       title: "Desenvolvimento Full Stack",
       fileName: "FullStackImg",
       skills: [
-        " Desenvolvimento de interfaces interativas e criativas para aplicações WEB.",
+        " Desenvolvimento APIs backend em NodeJs, Express, Django e SpringBoot.",
         " Domínio na tecnologia React, em conjunto com Redux e Context API.",
         " Criação de sites responsivos com ferramentas como Bulma e Bootstrap.",
         " Experiência com Git, GitHub e metodologias ágeis.",
         " Habituado com metodologia ativa de ensino, o que possibilita facilidade na aprenizagem de novas tecnologias.",
-        // " ✔️ Creating application backend in Node, Express & Flask",
       ],
       softwareSkills: [
         {
@@ -71,6 +70,17 @@ const skills = {
           },
         },
         {
+          skillName: "Java",
+          fontAwesomeClassname: "simple-icons:java",
+          style: {
+            color: "#f89820",
+          },
+        },
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "simple-icons:python",
+        },
+        {
           skillName: "ReactJS",
           fontAwesomeClassname: "simple-icons:react",
           style: {
@@ -92,13 +102,6 @@ const skills = {
           },
         },
         {
-          skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
-          style: {
-            color: "#f89820",
-          },
-        },
-        {
           skillName: "MySQL",
           fontAwesomeClassname: "simple-icons:mysql",
           style: {
@@ -110,6 +113,62 @@ const skills = {
           fontAwesomeClassname: "simple-icons:git",
           style: {
             color: "#E94E32",
+          },
+        },
+        {
+          skillName: "Spring Boot",
+          fontAwesomeClassname: "simple-icons:springboot",
+          style: {
+            color: "#6aac3d",
+          },
+        },
+        {
+          skillName: "NodeJS",
+          fontAwesomeClassname: "simple-icons:nodejs",
+          style: {
+            color: "#6aac3d",
+          },
+        },
+        {
+          skillName: "PostgreSQL",
+          fontAwesomeClassname: "simple-icons:postgresql",
+          style: {
+            color: "#31648c",
+          },
+        },        
+        {
+          skillName: "Sequelize",
+          fontAwesomeClassname: "simple-icons:sequelize",
+          style: {
+            color: "#2379bd",
+          },
+        },
+        {
+          skillName: "Django",
+          fontAwesomeClassname: "simple-icons:django",
+          style: {
+            color: "#812f2f",
+          },
+        },
+        {
+          skillName: "Bulma",
+          fontAwesomeClassname: "simple-icons:bulma",
+          style: {
+            color: "#11d1b2",
+          },
+        },
+        {
+          skillName: "Bootstrap",
+          fontAwesomeClassname: "simple-icons:bootstrap",
+          style: {
+            color: "#7952b3",
+          },
+        },
+        {
+          skillName: "Material-UI",
+          fontAwesomeClassname: "simple-icons:materialui",
+          style: {
+            color: "#1a76d2",
           },
         },
       ],
@@ -155,6 +214,14 @@ const certifications = {
       alt_name: "Learn-A-Thon",
     },
     {
+      title: "Aceleração Java",
+      subtitle: "Codenation/Trybe",
+      logo_path: "Trybe-I.png",
+      certificate_link:
+        "https://smartcerts.co/certificate/dyapeazj",
+      alt_name: "Aceleração Java",
+    },
+    {
       title: "Programação de dispositivos móveis",
       subtitle: "UFRN",
       logo_path: "brasaoUFRN.png",
@@ -181,8 +248,8 @@ const certifications = {
       subtitle: "UFV",
       logo_path: "brasaoUfV.gif",
       certificate_link:
-        "https://drive.google.com/file/d/1JTd8pVlHbP0RVQYtfa4OZgJYGfdiCwM6/view?usp=sharing",
-      alt_name: "Flutter Internation Hackathon",
+        "https://www.ufv.br/",
+      alt_name: "UFV",
       color_code: "#2AAFED",
     },
   ],
@@ -236,14 +303,7 @@ const contactPageData = {
     profile_image_path: ["Edson.jpg", "familia.jpg", "piscina-Helena.jpg"],
     description:
       "Abaixo encontram-se alguns meios para entrar em contato comigo e meu Currículo.",
-  },
-  blogSection: {
-    title: "Blogs",
-    subtitle:
-      "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I write on Twitter.",
-    link: "https://twitter.com/Harikrushn9",
-    avatar_image_path: "blogs_image.svg",
-  },
+  }
 };
 const projects = {
   title: "Projetos",
