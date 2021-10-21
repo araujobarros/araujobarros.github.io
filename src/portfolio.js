@@ -40,7 +40,7 @@ const skills = {
       title: "Desenvolvimento Full Stack",
       fileName: "FullStackImg",
       skills: [
-        " Desenvolvimento APIs backend em NodeJs, Express, Django e SpringBoot.",
+        " Desenvolvimento de APIs backend em NodeJs, Express, Django e SpringBoot.",
         " Domínio na tecnologia React, em conjunto com Redux e Context API.",
         " Criação de sites responsivos com ferramentas como Bulma e Bootstrap.",
         " Experiência com Git, GitHub e metodologias ágeis.",
