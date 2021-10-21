@@ -78,7 +78,7 @@ const skills = {
         },
         {
           skillName: "Python",
-          fontAwesomeClassname: "simple-icons:python",
+          fontAwesomeClassname: "logos:python",
         },
         {
           skillName: "ReactJS",
@@ -313,10 +313,72 @@ const projects = {
   sections: [
     {
       title: "Projetos finalizados",
+
       detailedProjects: [
         {
           id: "0",
+          name: "Central de Erros",
+          device: "PC",
+          urlSite: "https://error-center-qq.herokuapp.com/swagger-ui.html",
+          urlRepo: "https://github.com/araujobarros/Error_Center",
+          preview: "Token-2021-09-28_09.39.34.gif",
+          description:
+            "Projeto final da aceleração Java. Consiste na criação de uma API para centralizar os registros de erros em um banco de dados relacional. Nesta aplicação deverá ser possível cadastrar erros e fazer consultas, além da necessidade de autenticação.",
+          languages: [
+            {
+              name: "Java",
+              iconifyClass: "logos:java",
+            },
+            {
+              name: "SpringBoot",
+              iconifyClass: "logos:spring-icon",
+            },
+            {
+              name: "OAuth2",
+              iconifyClass: "logos:oauth",
+            },
+            {
+              name: "PostgreSQL",
+              iconifyClass: "logos:postgresql",
+            },
+            {
+              name: "Swagger",
+              iconifyClass: "logos:swagger",
+            },
+          ],
+        },
+        {
+          id: "1",
+          name: "MagPy-Instruct",
+          device: "PC",
+          urlSite: "https://magpy-instruct-api.herokuapp.com",
+          urlRepo: "https://github.com/araujobarros/Magpy-Instruct",
+          preview: "MagPy_Print.png",
+          description:
+            "Projeto realizado com Django Rest Framework, para cadastro e consulta de pacotes em banco de dados.",
+          languages: [
+            {
+              name: "Python",
+              iconifyClass: "logos:python",
+            },
+            {
+              name: "Django REST Framework",
+              iconifyClass: "vscode-icons:file-type-django",
+            },
+            {
+              name: "PostgreSQL",
+              iconifyClass: "logos:postgresql",
+            },
+            {
+              name: "Swagger",
+              iconifyClass: "logos:swagger",
+            },
+          ],
+        },
+        {
+          id: "2",
           name: "Do Eat!",
+          device: "mobile",
           urlSite: "https://doeat-78254.web.app/comidas",
           urlRepo: "https://github.com/araujobarros/Do-Eat-",
           preview: "do_eat_preview.gif",
@@ -338,8 +400,9 @@ const projects = {
           ],
         },
         {
-          id: "1",
+          id: "3",
           name: "Star Wars Planets List",
+          device: "mobile",
           urlSite: "https://starwars-45bd8.web.app",
           urlRepo: "https://github.com/araujobarros/StarWars",
           preview: "star_wars_preview.gif",
@@ -368,6 +431,7 @@ const projects = {
         {
           id: "0",
           name: "Sra. Orem",
+          device: "mobile",
           urlSite: "https://srorem-fc8aa.web.app/Cardapio",
           urlRepo: "https://github.com/araujobarros/Sra.Orem",
           preview: "sra_Orem_preview.gif",

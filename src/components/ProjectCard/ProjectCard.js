@@ -4,6 +4,7 @@ import "./ProjectCard.css";
 import { Fade } from "react-reveal";
 import { style } from "glamor";
 import MoldMob from "./MoldMob";
+import MoldPC from "./MoldPC";
 
 export default function ProjectCard({ repo, theme }) {
   function openRepoinNewTab(e, url) {
@@ -39,6 +40,23 @@ export default function ProjectCard({ repo, theme }) {
       boxShadow: `0 5px 15px ${theme.accentBright}`,
     },
   });
+
+  const renderMold = () => {
+    if (repo.device === "mobile") {
+      return(
+        <div className="image-container">
+              <MoldMob preview={repo.preview} />
+        </div>
+      )
+    } else {
+      return(
+        <div className="image-container">
+              <MoldPC preview={repo.preview}/>
+        </div>
+      )
+    }
+    
+  }
 
   return (
     <div>
@@ -96,9 +114,7 @@ export default function ProjectCard({ repo, theme }) {
               </a>
             </div>
           </div>
-          <div className="image-container">
-            <MoldMob preview={repo.preview} />
-          </div>
+          {renderMold()}
           <Fade bottom duration={2000} distance="40px">
             <div {...styles} className={classPreview}>
               <a href="" onClick={onClickX}>
