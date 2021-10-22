@@ -107,13 +107,13 @@ function DegreeCard(props) {
                 <div>
                   <p className="content-list" style={{ color: theme.text }}>
                     <div
-                      className={`tick ${index === 3 ? "charge" : ""}`}
+                      className={"tick"}
                       style={{
                         color: theme.accentBright,
                         fontSize: "25px",
                       }}
                     >
-                      {index < 3 ? "✔" : "◌" }
+                      ✔
                     </div>
                     {sentence}
                   </p>

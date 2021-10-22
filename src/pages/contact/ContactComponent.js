@@ -1,8 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
-import BlogsImg from "./BlogsImg";
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.js";
@@ -10,7 +9,6 @@ import { style } from "glamor";
 import ContactCarousel from "../../components/contactCarousel/ContactCarousel";
 
 const ContactData = contactPageData.contactSection;
-const blogSection = contactPageData.blogSection;
 
 function Contact(props) {
   const theme = props.theme;
