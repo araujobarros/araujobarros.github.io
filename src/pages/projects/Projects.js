@@ -1,24 +1,14 @@
 import React from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
-import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import { Fade } from "react-reveal";
 import { projects } from "../../portfolio.js";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
-import { style } from "glamor";
 import ProjectsAccordion from "../../containers/ProjectsAccordion/ProjectsAccordion";
-import ProjectCarousel from "../../components/projectCarousel/ProjectCarousel";
 
 function Projects(props) {
   const theme = props.theme;
-
-  const styles = style({
-    backgroundColor: `${theme.accentBright}`,
-    ":hover": {
-      boxShadow: `0 5px 15px ${theme.accentBright}`,
-    },
-  });
 
   return (
     <div className="projects-main">

@@ -457,24 +457,6 @@ const projects = {
   ],
 };
 
-const references = [
-  {
-    id: 0,
-    name: "Portfolio template",
-    url: "https://github.com/harikanani/PortfolioV2",
-  },
-  {
-    id: 1,
-    name: "Hexagon Tutorial",
-    url: "https://jtauber.github.io/articles/css-hexagon.html",
-  },
-  {
-    id: 3,
-    name: "Animations",
-    url: "https://www.imaginarycloud.com/blog/how-to-make-css-animations/",
-  },
-];
-
 const candles = [
   "candle.png",
   "candle2.png",

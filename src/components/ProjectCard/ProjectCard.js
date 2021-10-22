@@ -80,50 +80,48 @@ export default function ProjectCard({ repo, theme }) {
               {repo.description}
             </p>
             <div className="btn-container">
-              <a
+              <button
                 {...btnStyles}
                 className="general-btn btn-preview"
-                href=""
                 onClick={(e, assunto) => onClickBtnPreview(e, "about")}
               >
                 Sobre
-              </a>
-              <a
+              </button>
+              <button
                 {...btnStyles}
                 className="general-btn btn-preview"
-                href=""
                 onClick={(e, assunto) => onClickBtnPreview(e, "preview")}
               >
                 Preview
-              </a>
-              <a
+              </button>
+              <button
                 {...btnStyles}
                 className="general-btn"
-                href=""
                 onClick={(e, url) => openRepoinNewTab(e, repo.urlSite)}
               >
                 Experimente
-              </a>
-              <a
+              </button>
+              <button
                 {...btnStyles}
                 className="general-btn"
-                href=""
                 onClick={(e, url) => openRepoinNewTab(e, repo.urlRepo)}
               >
                 Github
-              </a>
+              </button>
             </div>
           </div>
           {renderMold()}
           <Fade bottom duration={2000} distance="40px">
             <div {...styles} className={classPreview}>
-              <a href="" onClick={onClickX}>
-                <h1>x</h1>
-              </a>
+              <button {...btnStyles} onClick={onClickX} className="x-btn">
+                <div>{repo.name}</div>
+                <div>x</div>
+              </button>
               {aboutOrPreview === "preview" ? (
                 <div className="larg-image">
                   <img
                     src={require(`../../assests/images/${repo.preview}`)}
+                    alt="Preview"
                   ></img>
                 </div>
               ) : (

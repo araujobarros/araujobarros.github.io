@@ -1,5 +1,4 @@
 import React from "react";
-import { themes } from "../../theme";
 
 function FullStackImg(props) {
   const theme = props.theme;
